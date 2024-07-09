@@ -1,5 +1,5 @@
 # Use an official Node runtime as a parent image
-FROM node:14
+FROM node:18
 
 # Set the working directory
 WORKDIR /usr/src/app
@@ -18,4 +18,3 @@ EXPOSE 5000
 
 # Start the backend server
 CMD ["node", "server.js"]
- 
